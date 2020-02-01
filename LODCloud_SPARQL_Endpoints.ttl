@@ -20,7 +20,7 @@ sourceDAV:
     schema:name         "LOD Cloud Knowledge Graph SPARQL Query Services Description"^^xsd:string ;
     dcterms:format      "text/turtle" ;
     schema:dateCreated  "2019-12-19T13:00:00-05:00"^^xsd:dateTime ;
-    schema:dateModified "2020-01-15T17:00:00-05:00"^^xsd:dateTime ;
+    schema:dateModified "2020-01-31T19:39:00-05:00"^^xsd:dateTime ;
     schema:author       <http://www.openlinksw.com/#this> ;
     schema:publisher    <http://www.openlinksw.com/#this> ;
     schema:license      <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
@@ -32,7 +32,7 @@ source:
     schema:name         "LOD Cloud SPARQL Query Services Description"^^xsd:string ;
     schema:comment      """RDF-Turtle document that describes a collection of SPARQL Service Endpoints associated with the LOD Cloud Knowledge Graph"""@en ;
     schema:dateCreated  "2019-12-19T13:00:00-05:00"^^xsd:dateTime ;
-    schema:dateModified "2019-12-19T13:00:00-05:00"^^xsd:dateTime ;
+    schema:dateModified "2020-01-31T19:39:00-05:00"^^xsd:dateTime ;
     schema:author       <http://www.openlinksw.com/#this> ;
     schema:license      <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
     cc:attributionName  "OpenLink Software" ;
