@@ -362,7 +362,7 @@ source:
     owl:sameAs       <http://ariadne-registry.dcu.gr:8890/sparql#this> ;
     schema:url       <http://ariadne-registry.dcu.gr:8890/sparql> .
 
-<http://data.openlinksw.com/oplweb/sparql-endpoint6#this
+<http://data.openlinksw.com/oplweb/sparql-endpoint6#this> 
     void:triples      "http://babelnet.org/sparql/" ;
     a                sd:Service ;
     rdfs:label       "BabelNet" ;
