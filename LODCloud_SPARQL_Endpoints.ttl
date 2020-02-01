@@ -317,7 +317,7 @@ source:
     owl:sameAs       <http://acm.rkbexplorer.com/sparql/#this> ;
     schema:url       <http://acm.rkbexplorer.com/sparql/> .
 
-<http://data.openlinksw.com/oplweb/sparql-endpoint1#this
+<http://data.openlinksw.com/oplweb/sparql-endpoint1#this> 
     void:triples      "http://aemet.linkeddata.es/sparql/" ;
     a                sd:Service ;
     schema:publisher <http://aemet.linkeddata.es//#webid> ;
