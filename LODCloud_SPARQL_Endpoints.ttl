@@ -20,7 +20,7 @@ sourceDAV:
     schema:name         "LOD Cloud Knowledge Graph SPARQL Query Services Description"^^xsd:string ;
     dcterms:format      "text/turtle" ;
     schema:dateCreated  "2019-12-19T13:00:00-05:00"^^xsd:dateTime ;
-    schema:dateModified "2020-01-31T19:39:00-05:00"^^xsd:dateTime ;
+    schema:dateModified "2020-03-17T20:50:00-05:00"^^xsd:dateTime ;
     schema:author       <http://www.openlinksw.com/#this> ;
     schema:publisher    <http://www.openlinksw.com/#this> ;
     schema:license      <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
@@ -32,7 +32,7 @@ source:
     schema:name         "LOD Cloud SPARQL Query Services Description"^^xsd:string ;
     schema:comment      """RDF-Turtle document that describes a collection of SPARQL Service Endpoints associated with the LOD Cloud Knowledge Graph"""@en ;
     schema:dateCreated  "2019-12-19T13:00:00-05:00"^^xsd:dateTime ;
-    schema:dateModified "2020-01-31T19:39:00-05:00"^^xsd:dateTime ;
+    schema:dateModified "2020-03-17T20:50:00-05:00"^^xsd:dateTime ;
     schema:author       <http://www.openlinksw.com/#this> ;
     schema:license      <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
     cc:attributionName  "OpenLink Software" ;
@@ -318,8 +318,8 @@ source:
     schema:url       <http://acm.rkbexplorer.com/sparql/> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint1#this> 
-    void:triples      "http://aemet.linkeddata.es/sparql/> ;
     a                sd:Service ;
+    sd:endpoint      <http://aemet.linkeddata.es/sparql/> ;
     schema:publisher <http://aemet.linkeddata.es//#webid> ;
     prov:component   <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
     owl:sameAs       <http://aemet.linkeddata.es/sparql/#this> ;
@@ -337,7 +337,6 @@ source:
     a                sd:Service ;
     sd:endpoint      <http://agrovoc.uniroma2.it:3030/agrovoc/sparql> ;
     rdfs:label       "AGROVOC" ;
-    void:triples     "no response 2019-12-19"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "AGROVOC" ;
     schema:publisher <http://agrovoc.uniroma2.it:3030/agrovoc/#webid> ;
     owl:sameAs       <http://agrovoc.uniroma2.it:3030/agrovoc/sparql#this> ;
@@ -363,7 +362,7 @@ source:
     schema:url       <http://ariadne-registry.dcu.gr:8890/sparql> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint6#this> 
-    void:triples      "http://babelnet.org/sparql/> ;
+    void:triples      <http://babelnet.org/sparql/> ;
     a                sd:Service ;
     rdfs:label       "BabelNet" ;
     void:triples     "1947548744"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -385,7 +384,7 @@ source:
     schema:url       <http://bio2rdf.org/sparql> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint8#this>
-    void:triples      "http://biolit.rkbexplorer.com/sparql/> ;
+    void:triples      <http://biolit.rkbexplorer.com/sparql/> ;
     a                sd:Service ;
     rdfs:label       "DBTune" ;
     schema:name      "DBTune" ;
@@ -416,7 +415,7 @@ source:
     schema:url       <http://bioportal.bio2rdf.org/sparql/> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint11#this>
-    void:triples      "http://biordf.net/sparql/> ;
+    void:triples      <http://biordf.net/sparql/> ;
     a                sd:Service ;
     schema:publisher <http://biordf.net//#webid> ;
     prov:component   <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
@@ -425,7 +424,7 @@ source:
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint12#this>
     a                sd:Service ;
-    sd:endpoint      <http://biosoda.expasy.org:8080/rdf4j-server/repositories/bgeelight" ;
+    sd:endpoint      <http://biosoda.expasy.org:8080/rdf4j-server/repositories/bgeelight> ;
     rdfs:label       "Bgee Lite" ;
     void:triples     "refuses to count"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "Bgee Lite" ;
@@ -435,7 +434,7 @@ source:
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint13#this>
     a                sd:Service ;
-    sd:endpoint      <http://bmrbpub.protein.osaka-u.ac.jp/search/rdf" ;
+    sd:endpoint      <http://bmrbpub.protein.osaka-u.ac.jp/search/rdf> ;
     rdfs:label       "PDBj-BMRB" ;
     void:triples     "6365423287"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "PDBj-BMRB" ;
@@ -483,7 +482,7 @@ source:
     schema:url       <http://canlink.library.ualberta.ca/sparql> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint18#this>
-    void:triples      "http://citeseer.rkbexplorer.com/sparql/> ;
+    void:triples      <http://citeseer.rkbexplorer.com/sparql/> ;
     a                sd:Service ;
     rdfs:label       "CiteSeer" ;
     void:triples     "8146852"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -513,7 +512,7 @@ source:
     schema:url       <http://colil.dbcls.jp/sparql> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint21#this>
-    void:triples      "http://collection.britishart.yale.edu/sparql/> ;
+    void:triples      <http://collection.britishart.yale.edu/sparql/> ;
     a                sd:Service ;
     rdfs:label       "Yale Center of British Art" ;
     schema:name      "Yale Center of British Art" ;
@@ -620,7 +619,7 @@ source:
     schema:url       <http://data.allie.dbcls.jp/sparql> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint33#this>
-    void:triples      "http://data.allie.dbcls.jp/sparql/> ;
+    void:triples      <http://data.allie.dbcls.jp/sparql/> ;
     a                sd:Service ;
     rdfs:label       "Allie" ;
     schema:name      "Allie" ;
@@ -660,7 +659,7 @@ source:
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint37#this>
     a                sd:Service ;
-    sd:endpoint      <http://data.cnr.it/sparql-proxy/" ;
+    sd:endpoint      <http://data.cnr.it/sparql-proxy/> ;
     schema:publisher <http://data.cnr.it/-proxy/#webid> ;
     prov:component   <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
     owl:sameAs       <http://data.cnr.it/sparql-proxy/#this> ;
@@ -700,7 +699,6 @@ source:
     a                sd:Service ;
     sd:endpoint      <http://data.organic-edunet.eu/sparql> ;
     rdfs:label       "Organic.Edunet" ;
-    void:triples     "no response 2019-12-19"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "Organic.Edunet" ;
     schema:publisher <http://data.organic-edunet.eu/#webid> ;
     owl:sameAs       <http://data.organic-edunet.eu/sparql#this> ;
@@ -715,7 +713,7 @@ source:
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint43#this>
     a                sd:Service ;
-    sd:endpoint      <http://data.persee.fr/explorer/sparql-endpoint/" ;
+    sd:endpoint      <http://data.persee.fr/explorer/sparql-endpoint/> ;
     rdfs:label       "Data Persee" ;
     void:triples     "42406274"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "Data Persee" ;
@@ -895,7 +893,7 @@ source:
     schema:url       <http://dbtune.org/myspace/sparql/> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint61#this>
-    void:triples      "http://de.dbpedia.org/sparql> ;
+    void:triples      <http://de.dbpedia.org/sparql> ;
     a                sd:Service ;
     rdfs:label       "German DBpedia Edition " ;
     schema:name      "German DBpedia Edition " ;
@@ -971,7 +969,7 @@ source:
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint69#this>
     a                sd:Service ;
-    sd:endpoint      <http://edan.si.edu/saam/sparql " ;
+    sd:endpoint      <http://edan.si.edu/saam/sparql> ;
     rdfs:label       "Smithsonian Museum" ;
     schema:name      "Smithsonian Museum" ;
     schema:publisher <http://data.openlinksw.com/oplweb/http%3A%2F%2Fedan.si.edu%2Fsaam%2F+%23webid> ;
@@ -988,7 +986,7 @@ source:
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint71#this>
     a                sd:Service ;
-    sd:endpoint      <http://environment.data.gov.uk/sparql/bwq/query/" ;
+    sd:endpoint      <http://environment.data.gov.uk/sparql/bwq/query/> ;
     rdfs:label       "Defra Data Services" ;
     schema:name      "Defra Data Services" ;
     schema:publisher <http://environment.data.gov.uk//bwq/query/#webid> ;
@@ -1101,7 +1099,7 @@ source:
     schema:url       <http://ft.rkbexplorer.com/sparql/> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint84#this>
-    void:triples      "http://genage.bio2rdf.org/sparql/> ;
+    void:triples      <http://genage.bio2rdf.org/sparql/> ;
     a                sd:Service ;
     schema:publisher <http://genage.bio2rdf.org//#webid> ;
     prov:component   <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
@@ -1220,7 +1218,7 @@ source:
     schema:url       <http://id.sgcb.mcu.es/sparql/> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint97#this>
-    void:triples      "http://ieee.rkbexplorer.com/sparql/> ;
+    void:triples      <http://ieee.rkbexplorer.com/sparql/> ;
     a                sd:Service ;
     rdfs:label       "DBTune" ;
     schema:name      "DBTune" ;
@@ -1306,7 +1304,7 @@ source:
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint107#this>
     a                sd:Service ;
-    sd:endpoint      <http://kdata.kr/sparql/endpoint.jsp/" ;
+    sd:endpoint      <http://kdata.kr/sparql/endpoint.jsp/> ;
     rdfs:label       "Linked Data for Korea" ;
     schema:name      "Linked Data for Korea" ;
     schema:publisher <http://kdata.kr//endpoint.jsp/#webid> ;
@@ -1467,7 +1465,7 @@ source:
     schema:url       <http://lod.kaist.ac.kr/sparql> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint125#this>
-    void:triples      "http://lod.knps.or.kr/main/sparql.do" ;
+    void:triples      <http://lod.knps.or.kr/main/sparql.do> ;
     a                sd:Service ;
     rdfs:label       "Korea National Park" ;
     void:triples     "2409465"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1479,7 +1477,7 @@ source:
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint126#this>
     a                sd:Service ;
-    sd:endpoint      <http://lod.knps.or.kr/main/sparql.do" ;
+    sd:endpoint      <http://lod.knps.or.kr/main/sparql.do> ;
     rdfs:label       "Korea National Park" ;
     schema:name      "Korea National Park" ;
     schema:publisher <http://lod.knps.or.kr/main/.do#webid> ;
@@ -1659,7 +1657,7 @@ source:
     schema:url       <http://opencitations.net/index/sparql> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint146#this>
-    void:triples      "http://opendatacommunities.org/sparql/> ;
+    void:triples      <http://opendatacommunities.org/sparql/> ;
     a                sd:Service ;
     schema:publisher <http://opendatacommunities.org//#webid> ;
     owl:sameAs       <http://opendatacommunities.org/sparql/#this> ;
@@ -1676,7 +1674,7 @@ source:
     schema:url       <http://orphanet.bio2rdf.org/sparql/> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint148#this>
-    void:triples      "http://os.rkbexplorer.com/sparql/> ;
+    void:triples      <http://os.rkbexplorer.com/sparql/> ;
     a                sd:Service ;
     rdfs:label       "DBTune" ;
     schema:name      "DBTune" ;
@@ -1767,7 +1765,7 @@ source:
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint157#this>
     a                sd:Service ;
-    sd:endpoint      <http://query.wikidata.org/" ;
+    sd:endpoint      <http://query.wikidata.org/> ;
     rdfs:label       "DBTune" ;
     void:triples     "7910139919"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "DBTune" ;
@@ -1853,7 +1851,7 @@ source:
     rdfs:label       "DBTune" .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint166#this>
-    void:triples      "http://sparql.archives-ouvertes.fr/sparql> ;
+    void:triples      <http://sparql.archives-ouvertes.fr/sparql> ;
     a                sd:Service ;
     rdfs:label       "HAL" ;
     void:triples     "131088959"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1863,7 +1861,7 @@ source:
     schema:url       <http://sparql.archives-ouvertes.fr/sparql> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint167#this>
-    void:triples      "http://sparql.datao.net/sparql> ;
+    void:triples      <http://sparql.datao.net/sparql> ;
     rdfs:label       "Datao" ;
     a                sd:Service ;
     schema:name      "Datao" ;
@@ -1873,7 +1871,7 @@ source:
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint168#this>
     a                sd:Service ;
-    sd:endpoint      <http://sparql.europeana.eu" ;
+    sd:endpoint      <http://sparql.europeana.eu> ;
     rdfs:label       "Europeana" ;
     void:triples     "2349904875"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "Europeana" ;
@@ -1903,7 +1901,7 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint171#this>
     a                sd:Service ;
-    sd:endpoint      <http://sparql.lynx-project.eu/" ;
+    sd:endpoint      <http://sparql.lynx-project.eu/> ;
     rdfs:label       "Lynx" ;
     void:triples     "454707"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "Lynx" ;
@@ -1942,7 +1940,7 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint175#this>
     a                sd:Service ;
-    sd:endpoint      <http://sparql.southgreen.fr/" ;
+    sd:endpoint      <http://sparql.southgreen.fr/> ;
     rdfs:label       "Agronomic Linked Data (AgroLD)" ;
     void:triples     "290170484"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "Agronomic Linked Data (AgroLD)" ;
@@ -1952,7 +1950,7 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint176#this>
     a                sd:Service ;
-    sd:endpoint      <http://sparql.southgreen.fr/" ;
+    sd:endpoint      <http://sparql.southgreen.fr/> ;
     rdfs:label       "SouthGreen" ;
     void:triples     "99294306"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "SouthGreen" ;
@@ -1962,7 +1960,7 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint177#this>
     a                sd:Service ;
-    sd:endpoint      <http://sparql.wikipathways.org" ;
+    sd:endpoint      <http://sparql.wikipathways.org> ;
     rdfs:label       "WikiPathways" ;
     void:triples     "16500158"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "WikiPathways" ;
@@ -1972,7 +1970,7 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint178#this>
     a                sd:Service ;
-    sd:endpoint      <http://sparql.wikipathways.org/" ;
+    sd:endpoint      <http://sparql.wikipathways.org/> ;
     rdfs:label       "WikiPathways" ;
     schema:name      "WikiPathways" ;
     prov:component   <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
@@ -1980,7 +1978,7 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
     schema:url       <http://sparql.wikipathways.org/> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint179#this>
-    void:triples      "http://sparql.wikipathways.org/" ;
+    void:triples      <http://sparql.wikipathways.org/> ;
     rdfs:label       "WikiPathways" ;
     a                sd:Service ;
     schema:name      "WikiPathways" ;
@@ -2022,7 +2020,6 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
     a                sd:Service ;
     sd:endpoint      <http://vt.mo-ld.org/sparql> ;
     rdfs:label       "MOLD" ;
-    void:triples     "no response 2019-12-19"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "MOLD" ;
     schema:publisher <http://vt.mo-ld.org/#webid> ;
     owl:sameAs       <http://vt.mo-ld.org/sparql#this> ;
@@ -2051,7 +2048,7 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint186#this>
     a                sd:Service ;
-    sd:endpoint      <http://wikidata.demo.openlinksw.com/sparql " ;
+    sd:endpoint      <http://wikidata.demo.openlinksw.com/sparql> ;
     rdfs:label       "Wikidata by OpenLink " ;
     void:triples     "9318604288"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "Wikidata by OpenLink " ;
@@ -2073,7 +2070,7 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint188#this>
     owl:sameAs       <http://www.genome.jp/sparql/linkdb#this> ;
-    sd:endpoint      <http://www.genome.jp/sparql/linkdb" ;
+    sd:endpoint      <http://www.genome.jp/sparql/linkdb> ;
     rdfs:label       "LinkDB" ;
     void:triples     "11424742384"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "LinkDB" ;
@@ -2085,7 +2082,7 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
 <http://data.openlinksw.com/oplweb/sparql-endpoint189#this>
     schema:url       <http://www.imagesnippets.com/sparql/images> ;
     a                sd:Service ;
-    sd:endpoint      <http://www.imagesnippets.com/sparql/images" ;
+    sd:endpoint      <http://www.imagesnippets.com/sparql/images> ;
     rdfs:label       "ImageSnippets" ;
     schema:name      "ImageSnippets" ;
     schema:publisher <http://www.imagesnippets.com//images#webid> ;
@@ -2113,7 +2110,7 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
     schema:url       <http://www.rechercheisidore.fr/sparql/> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint192#this>
-    void:triples      "http://www.scholarlydata.org/sparql> ;
+    void:triples      <http://www.scholarlydata.org/sparql> ;
     a                sd:Service ;
     rdfs:label       "Scholarlydata" ;
     schema:name      "Scholarlydata" ;
@@ -2152,9 +2149,9 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
     schema:url       <https://alaska.eagle-i.net/sparqler/sparql> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint196#this>
-    void:triples      "https://api.aucklandmuseum.com/sparql> ;
-    rdfs:label       "Auckland Museum" ;
     a                sd:Service ;
+    sd:endpoint     <https://api.aucklandmuseum.com/sparql> ;
+    rdfs:label       "Auckland Museum" ;
     schema:name      "Auckland Museum" ;
     schema:publisher <https://api.aucklandmuseum.com/#webid> ;
     owl:sameAs       <https://api.aucklandmuseum.com/sparql#this> ;
@@ -2189,7 +2186,7 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint200#this>
     a                sd:Service ;
-    sd:endpoint      <https://bmrbpub.pdbj.org/search/rdf" ;
+    sd:endpoint      <https://bmrbpub.pdbj.org/search/rdf> ;
     rdfs:label       "BMRB -- nuclear magnetic resonance (NMR) spectroscopic studies of biological molecules" ;
     schema:name      "BMRB -- nuclear magnetic resonance (NMR) spectroscopic studies of biological molecules" ;
     schema:publisher <https://bmrbpub.pdbj.org/search/rdf#webid> ;
@@ -2218,8 +2215,8 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
     schema:url       <https://ccny-cuny.eagle-i.net/sparqler/sparql> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint203#this>
-    void:triples      "https://cdrewu.eagle-i.net/sparqler/sparql> ;
     a                sd:Service ;
+    sd:endpoint     <https://cdrewu.eagle-i.net/sparqler/sparql> ;
     rdfs:label       "Charles R. Drew University of Medicine and Science" ;
     void:triples     "717984"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "Charles R. Drew University of Medicine and Science" ;
@@ -2229,7 +2226,7 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint204#this>
     a                sd:Service ;
-    sd:endpoint      <https://data.bnf.fr/current/sparql.html" ;
+    sd:endpoint      <https://data.bnf.fr/current/sparql.html> ;
     rdfs:label       "BNF" ;
     void:triples     "348404782"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "BNF" ;
@@ -2261,7 +2258,7 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint207#this>
     a                sd:Service ;
-    sd:endpoint      <https://data.idref.fr/endpoint.html" ;
+    sd:endpoint      <https://data.idref.fr/endpoint.html> ;
     rdfs:label       "IdRef" ;
     void:triples     "117327073"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "IdRef" ;
@@ -2306,7 +2303,6 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
     a                sd:Service ;
     sd:endpoint      <https://eagle-i.ctsi.msu.edu/sparqler/sparql> ;
     rdfs:label       "Michigan State University" ;
-    void:triples     "no response 2019-12-19"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "Michigan State University" ;
     schema:publisher <https://eagle-i.ctsi.msu.edu/er/#webid> ;
     owl:sameAs       <https://eagle-i.ctsi.msu.edu/sparqler/sparql#this> ;
@@ -2316,7 +2312,6 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
     a                sd:Service ;
     sd:endpoint      <https://eagle-i.fredhutch.org/sparqler/sparql> ;
     rdfs:label       "Fred Hutchinson Cancer Research Center" ;
-    void:triples     "no response 2019-12-19"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "Fred Hutchinson Cancer Research Center" ;
     schema:publisher <https://eagle-i.fredhutch.org/er/#webid> ;
     owl:sameAs       <https://eagle-i.fredhutch.org/sparqler/sparql#this> ;
@@ -2427,7 +2422,7 @@ The Kidney & Urinary Pathway Knowledge Base""" ;
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint223#this>
     a                sd:Service ;
-    sd:endpoint      <https://idsm.elixir-czech.cz/sparql/endpoint/idsm" ;
+    sd:endpoint      <https://idsm.elixir-czech.cz/sparql/endpoint/idsm> ;
     rdfs:label       """
 Integrated Database of Small Molecules""" ;
     void:triples     "14669303865"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -2441,7 +2436,6 @@ Integrated Database of Small Molecules""" ;
     a                sd:Service ;
     sd:endpoint      <https://immunology.harvard.eagle-i.net/sparqler/sparql> ;
     rdfs:label       "Harvard University Immunology Collection" ;
-    void:triples     "no response 2019-12-19"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "Harvard University Immunology Collection" ;
     schema:publisher <https://immunology.harvard.eagle-i.net/er/#webid> ;
     owl:sameAs       <https://immunology.harvard.eagle-i.net/sparqler/sparql#this> ;
@@ -2523,7 +2517,7 @@ Integrated Database of Small Molecules""" ;
 <http://data.openlinksw.com/oplweb/sparql-endpoint232#this>
     schema:url       <https://lindas-data.ch/sparql-ui/> ;
     a                sd:Service ;
-    sd:endpoint      <https://lindas-data.ch/sparql-ui/" ;
+    sd:endpoint      <https://lindas-data.ch/sparql-ui/> ;
     rdfs:label       "LINDAS" ;
     void:triples     "57162995"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "LINDAS" ;
@@ -2635,7 +2629,7 @@ Integrated Database of Small Molecules""" ;
 <http://data.openlinksw.com/oplweb/sparql-endpoint243#this>
     rdfs:label       "Publications Office - European Commission" ;
     a                sd:Service ;
-    sd:endpoint      <https://publications.europa.eu/en/advanced-sparql-query-editor" ;
+    sd:endpoint      <https://publications.europa.eu/en/advanced-sparql-query-editor> ;
     void:triples     "818465485"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "Publications Office - European Commission" ;
     schema:publisher <https://publications.europa.eu/en/advanced--query-editor#webid> ;
@@ -2717,7 +2711,7 @@ Integrated Database of Small Molecules""" ;
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint251#this>
     a                sd:Service ;
-    sd:endpoint      <https://sparql.nextprot.org/" ;
+    sd:endpoint      <https://sparql.nextprot.org/> ;
     rdfs:label       "neXtProt" ;
     void:triples     "1003720686"^^<http://www.w3.org/2001/XMLSchema#int> ;
     schema:name      "neXtProt" ;
@@ -2842,9 +2836,9 @@ Integrated Database of Small Molecules""" ;
     schema:url       <https://utsa.eagle-i.net/sparqler/sparql> .
 
 <http://data.openlinksw.com/oplweb/sparql-endpoint263#this>
-    void:triples      "https://www.ebi.ac.uk/rdf/services/sparql> ;
-    rdfs:label       "EMBL-EBI resources" ;
     a                sd:Service ;
+    sd:endpoint      <https://www.ebi.ac.uk/rdf/services/sparql> ;
+    rdfs:label       "EMBL-EBI resources" ;
     schema:name      "EMBL-EBI resources" ;
     schema:publisher <https://www.ebi.ac.uk#this> ;
     prov:component   <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
